@@ -1,16 +1,9 @@
 # شروعی بر react.js
 
-در این قسمت ، خلاصه درس ها به صورت داکیومنت و `doc`جهت یادگیری و یادآوری نوشته می شود
-## جلسه اول 
+در این قسمت ، خلاصه درس ها به صورت داکیومنت و `doc`جهت یادگیری و یادآوری نوشته می شود.
 
-```javascript
-Vue.component(
-    'example-component',
-    require('./components/ExampleComponent.vue').default
-);
-```
 
-## جلسه هفت
+## جلسه 6
 ```javascript
 import React from 'react';
 import ReactDom from 'react-dom';
@@ -25,3 +18,4 @@ const App = () =>{
 
 ReactDom.render(<App/>,document.getElementById('root'))
 ```
+
