@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## نمونه کد جاوا 
 
+در قسمت زیر باید حتما این کار را انجام دهید تست 
+
+بعد از اعمال 'code' می توانید 
 ```javascript
 Vue.component(
     'example-component',
