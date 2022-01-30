@@ -10,4 +10,18 @@ Vue.component(
 );
 ```
 
-## جلسه دوم 
+## جلسه هفت
+```javascript
+import React from 'react';
+import ReactDom from 'react-dom';
+
+const App = () =>{
+    return(
+        <div>
+            <h1>Hello mostafa</h1>
+        </div>
+    )
+}
+
+ReactDom.render(<App/>,document.getElementById('root'))
+```
