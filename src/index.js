@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import Header from './components/header';
 
 // const App = () =>{
 //     return React.createElement('h1',{className:'title'},'Hello World');
@@ -8,7 +9,8 @@ import ReactDom from 'react-dom';
 const App = () =>(
     <div className='one'>
             <h1>Hello mostafa</h1>
-            <h2>Hello mostafa</h2>
+            <Header/>
+
     </div>
  )
 
