@@ -8,7 +8,7 @@ import Header from './components/header';
 
 const App = () =>(
     <div className='one'>
-            <h1>Hello mostafa</h1>
+            <h1>Hello mostafa 300</h1>
             <Header/>
 
     </div>
