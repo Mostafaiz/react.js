@@ -4,14 +4,24 @@ class Header extends Component {
 
     render(){
         return (
+            // <header style={style.header}>
             <header>
-<div>Logo</div>
-<input></input>
+            <div className='logo'>Logo</div>
+            <input></input>
            </header>
         )
     } 
-
-
 }
 
+// let style={
+//     header:{
+//         background:"#03a9fa"
+//     },
+//     logo:{
+//         color:'#fff',
+//         fontFamily:'Anton',
+//         textAlign:'center'
+//     }
+    
+// }
 export default Header;
