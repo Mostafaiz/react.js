@@ -6,7 +6,7 @@ class Header extends Component {
         name:'francis',
         title:'the keyword are:',
         keywords:'',
-        count:0,
+        count:2,
     }
 
     inputChangeHandler=(event)=>{
@@ -15,8 +15,13 @@ class Header extends Component {
         })
     }
 
+    // addOne(){
+    //     this.setState({ count: this.state.count + 1 })
+    // }
     addOne(){
-        this.setState({ count: this.state.count + 1 })
+        this.setState((state ,props) => ({
+             count: state.count + 1 
+            }))
     }
 
     render(){
